@@ -1,0 +1,10 @@
+{
+	"package_creation":"modules/syncer/packageCreation",
+	"package_updation":"modules/syncer/packageUpdation",
+	"package_deletion":"modules/syncer/packageDeletion",
+	"ott_creation":"modules/syncer/ottCreation",
+	"ott_updation":"modules/syncer/ottUpdation",
+	"channel_creation":"modules/syncer/channelCreation",
+	"channel_updation":"modules/syncer/channelUpdation",
+	"channel_deletion":"modules/syncer/channelDeletion"
+}

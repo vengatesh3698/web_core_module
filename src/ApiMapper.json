@@ -1,0 +1,62 @@
+{
+	"/api/user":{
+		"GET":["ADMIN", "RESELLER", "SUPER_ADMIN"],
+		"POST":["ADMIN", "RESELLER", "SUPER_ADMIN"],
+		"PUT":["ADMIN", "RESELLER", "SUPER_ADMIN"],
+        "DELETE":["ADMIN",  "RESELLER", "SUPER_ADMIN"]
+	},
+    "/api/channel":{
+        "GET":["ADMIN", "RESELLER", "SUPER_ADMIN"],
+        "POST":["ADMIN", "RESELLER", "SUPER_ADMIN"],
+        "PUT":["ADMIN", "RESELLER", "SUPER_ADMIN"],
+        "DELETE":["ADMIN",  "RESELLER", "SUPER_ADMIN"]
+    },
+    "/api/category":{
+        "GET":["ADMIN", "RESELLER", "SUPER_ADMIN"],
+        "POST":["ADMIN", "RESELLER", "SUPER_ADMIN"],
+        "PUT":["ADMIN", "RESELLER", "SUPER_ADMIN"],
+        "DELETE":["ADMIN",  "RESELLER", "SUPER_ADMIN"]
+    },
+    "/api/inventory":{
+        "GET":["ADMIN", "RESELLER", "SUPER_ADMIN"],
+        "POST":["ADMIN", "RESELLER", "SUPER_ADMIN"],
+        "PUT":["ADMIN", "RESELLER", "SUPER_ADMIN"],
+        "DELETE":["ADMIN",  "RESELLER", "SUPER_ADMIN"]
+    },
+    "/api/package":{
+        "GET":["ADMIN", "RESELLER", "SUPER_ADMIN"],
+        "POST":["ADMIN", "RESELLER", "SUPER_ADMIN"],
+        "PUT":["ADMIN", "RESELLER", "SUPER_ADMIN"],
+        "DELETE":["ADMIN",  "RESELLER", "SUPER_ADMIN"]
+    },
+    "/api/dashboard":{
+        "GET":["ADMIN", "RESELLER", "SUPER_ADMIN"],
+        "POST":["ADMIN", "RESELLER", "SUPER_ADMIN"],
+        "PUT":["ADMIN", "RESELLER", "SUPER_ADMIN"],
+        "DELETE":["ADMIN",  "RESELLER", "SUPER_ADMIN"]
+    },
+   "/api/apps":{
+        "GET":["ADMIN", "SUPER_ADMIN"],
+        "POST":["ADMIN",  "SUPER_ADMIN"],
+        "PUT":["ADMIN",  "SUPER_ADMIN"],
+        "DELETE":["ADMIN", "SUPER_ADMIN"]
+    },
+    "/api/logo":{
+        "GET":["ADMIN", "SUPER_ADMIN", "RESELLER"],
+        "POST":["ADMIN",  "SUPER_ADMIN" , "RESELLER"],
+        "PUT":["ADMIN",  "SUPER_ADMIN", "RESELLER"],
+        "DELETE":["ADMIN", "SUPER_ADMIN", "RESELLER"]
+    },
+    "/api/credit":{
+        "GET":["ADMIN", "SUPER_ADMIN", "RESELLER"],
+        "POST":["ADMIN",  "SUPER_ADMIN" , "RESELLER"],
+        "PUT":["ADMIN",  "SUPER_ADMIN", "RESELLER"],
+        "DELETE":["ADMIN", "SUPER_ADMIN", "RESELLER"]
+    },
+    "/api/webseries":{
+        "GET":["ADMIN", "SUPER_ADMIN", "RESELLER"],
+        "POST":["ADMIN",  "SUPER_ADMIN" , "RESELLER"],
+        "PUT":["ADMIN",  "SUPER_ADMIN", "RESELLER"],
+        "DELETE":["ADMIN", "SUPER_ADMIN", "RESELLER"]
+    }
+}

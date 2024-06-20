@@ -1,0 +1,8 @@
+{
+	"D"            : false,
+	"db_username"  : "myuser",
+	"db_password"  : "mypass",
+	"db_name"      : "mydb",
+	"host"         : "localhost",
+	"port"		   : 5432
+}
